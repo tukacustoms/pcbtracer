@@ -140,10 +140,5 @@ See the printable **visual schematic**:
 
 ---
 
-## 📄 License
-MIT (or your preferred license)
-
----
-
 ## 🙌 Credits
-Design & tests by **Tuka Customs**. Engineering buddying by “Shady”.
+Design & tests by **Tuka Customs**. 
