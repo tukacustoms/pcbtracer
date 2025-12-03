@@ -64,22 +64,7 @@ See the printable **visual schematic**:
 
 ---
 
-## 🔬 Simulation (LTspice)
-
-**Files** (drop into `/sim/`):
-- `Tracer_5V_Advanced_Sweep.cir` (recommended 5 V model with sweeps)  
-- `Tracer_PowerStage_5V_SingleLED_Branches.cir` (simpler 5 V model)  
-- `Tracer_PowerStage_Sweep.cir` (12 V model with 3-LED strings)
-
-**What they show**
-- Rail droop vs. bulk capacitance (**Cbulk**), flash width (**tpw**), LED forward voltage (**Vf**), and source impedance (**Rser**).
-- Per-branch current (`I(R1)`) and total supply current (`I(V5)`).
-
-**Quick use**
-1. Open `.cir` in LTspice → Run.  
-2. Plot `V(VLED)`, `I(V5)`, and `I(R1)`.  
-3. View → **SPICE Error Log** → read **Droop**, **Ipk**, **Iavg**.  
-4. Edit `.param` to try different `tpw`, `Cbulk`, `Iled`, `Vf`.
+## 🔬 Simulation 
 
 **Formulae**
 - Branch resistor: `R ≈ (5 − Vf) / I`  
